@@ -25,9 +25,9 @@ Features:
   "Result".
 - Optional tags: "Annotator", "PlyCount", "TimeControl", "Time", "Termination", 
   "Mode", and "FEN".
-- Commentaries: **;** (a comment that continues to the end of the line) and 
-  **{** (which continues until a matching **}**). The last one just in moves 
-  list.
+- Commentaries: "**;**" (a comment that continues to the end of the line) and 
+  "**{**" (which continues until a matching "**}**"). The last one just in 
+  moves list.
 
 
 PGN example::
