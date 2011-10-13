@@ -42,5 +42,5 @@ setup(
         ('Topic :: Games/Entertainment'),
     ],
     keywords='chess game pgn parser python',
-    packages=find_packages()
+    py_modules=['pgn'],
     )
