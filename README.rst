@@ -19,7 +19,7 @@ yaml). The basic usage::
     print pgn.dumps(pgn_game) # Returns a string with a pgn game
 
 
-Features:
+**Features**:
 
 - Required tags: "Event", "Site", "Date", "Round", "White", "Black", and
   "Result".
@@ -30,7 +30,7 @@ Features:
   moves list.
 
 
-PGN example::
+**PGN example**::
 
     [Event "F/S Return Match"]
     [Site "Belgrade, Serbia Yugoslavia|JUG"]
