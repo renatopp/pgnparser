@@ -18,6 +18,18 @@ yaml). The basic usage::
     print pgn.loads(pgn_text) # Returns a list of PGNGame
     print pgn.dumps(pgn_game) # Returns a string with a pgn game
 
+**Note**:
+
+The above basic example doesn't work properly with huge files (hundreds of
+megabytes and more): reading the whole file at once is slow and uses much
+memory, pgn.loads(big_string) uses even more memory.
+
+To process huge PGN files, do it like this::
+
+    import pgn
+
+    for game in pgn.GameIterator("bigfile.pgn"):
+        print game  # or do something else with it
 
 **Features**:
 
