@@ -12,7 +12,7 @@ yaml). The basic usage::
 
     import pgn
 
-    pgn_text = open('morphy.pgn).read()
+    pgn_text = open('morphy.pgn').read()
     pgn_game = pgn.PGNGame()
 
     print pgn.loads(pgn_text) # Returns a list of PGNGame
