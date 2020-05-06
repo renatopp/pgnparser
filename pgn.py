@@ -266,7 +266,7 @@ def dumps(games):
         for move in game.moves:
             if not move.startswith('{'):
                 if i%2 == 0:
-                    dump += str(i/2+1)+'. '
+                    dump += str(int(i/2)+1)+'. '
                 
                 i += 1
 
